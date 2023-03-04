@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>smart login</title>
+</head>
+<body>
+
+
+    <section id="home" class="d-none">
+
+        <nav id="nav" class="navbar-expand-lg navbar navbar-dark card position-fixed w-100">
+            <div class="container">
+                <a href="#" class="navbar-brand">SMART LOGIN</a>
+                <a href="#" id="logout_btn" class="btn btn-outline-warning">Logout</a>
+            </div>
+        </nav>
+    
+        <div id="" class="container vh-100 d-flex justify-content-center align-items-center">
+            <div class="card w-75 m-auto p-5 text-center">
+                <h1 id="welcome"></h1>
+            </div>
+    
+        </div>
+
+    </section>
+
+
+    <section id="signin" class="container my-5 text-center">
+
+        <div id="signin_card" class="w-75 m-auto p-5 card">
+
+            <h1>Smart Login System</h1>
+
+            <form id="signin_inputs">
+                <input type="email" placeholder="Enter your Email" id="email" class=" my-3 form-control bg-transparent ">
+                <input type="password" placeholder="Ener your password" id="password" class="my-3 form-control bg-transparent">
+            </form>
+
+            <span id="signin_msg" class=""></span>
+           
+            <button id="login_btn" class="btn btn-outline-info w-100 my-3">Login</button>
+            <p>Don't have an account? <a href="#" id="signup_btn" class="text-white" >Sign Up</a> </p>
+
+        </div>
+
+    </section>
+
+
+    <section id="signup" class="container my-5 text-center d-none">
+
+        <div id="signup_card" class="w-75 m-auto p-5 card ">
+
+            <h1>Smart Login System</h1>
+
+            <form id="signup_inputs">
+                <input type="text" required placeholder="Enter your name" id="signup_name" class=" my-3 form-control bg-transparent ">
+                <input type="email" required placeholder="Enter your Email" id="signup_email" class=" my-3 form-control bg-transparent ">
+                <input type="password" required placeholder="Ener your password" id="signup_password" class="my-3 form-control bg-transparent">
+            </form>
+
+            <span id="signup_msg" class=""></span>
+
+            <button id="register_btn" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p>you have an account? <a href="#" id="signin_btn" class="text-white" >sign in</a> </p>
+
+        </div>
+
+    </section>
+
+
+    <script src="./js/bootstrap.bundle.min.js"> </script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
