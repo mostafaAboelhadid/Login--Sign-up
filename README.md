@@ -1,1 +1,1 @@
-Login ( sign-in, sign-uo ) APP using HTML5 JS
+Login ( sign-in, sign-up ) APP using HTML5 JS
